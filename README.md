@@ -1,4 +1,3 @@
-Yamila Soto:
 # agenda
 
 Proyecto de ejemplo para la asignatura Paradigmas de la Programación
@@ -28,7 +27,7 @@ La información de contacto se almacena en un único archivo en formato **shelve
 ## Módulos
 
 - **main.py**: es el módulo principal, es el programa que arranca y maneja la aplicación, por eso cumple la función de *controlador*. Importa los demás módulos, instancia sus clases, es decir, depende completamente de ellos.
-- **instituto.py**: es el módulo que contiene la estructura de clases en la que se basa la información que va a manejar la aplicación, por eso cumple la función de *modelo*. Es completamente independiente de los demás módulos.
+- **agenda.py**: es el módulo que contiene la estructura de clases en la que se basa la información que va a manejar la aplicación, por eso cumple la función de *modelo*. Es completamente independiente de los demás módulos.
 - **repl.py**: es el módulo encargado de la interacción con el usuario, es decir los "inputs" y "prints", por eso cumple la función de *vista*. Es también completamente independiente de los demás módulos.
 - **estante.py**: es un módulo independiente que sirve de apoyo al controlador, es el encargado de proporcionar a la aplicación la funcionalidad de persistencia de datos. Sólo importa lo que necesita, es decir, el módulo *shelve*.
 
